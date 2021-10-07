@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 7a3fe0a0a805da7458f7d5fd9e5da1a2
+  - enabled: 1
+    path: Assets/Scenes/Vragen.unity
+    guid: 4776fa77190d1bb419ae6d3b9e535f63
+  - enabled: 1
+    path: Assets/Scenes/RightDoor.unity
+    guid: 2e226e7d7fe1bf344b0b64ec88c80299
   m_configObjects: {}
