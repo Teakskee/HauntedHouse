@@ -8,7 +8,13 @@ public class BasementElevator : MonoBehaviour
     public GameObject TextBox;
     public GameObject Stairs;
     public GameObject Elevator;
+    public GameObject PlayAgain;
     public int Choice;
+
+    void Start()
+    {
+        PlayAgain.SetActive(false);
+    }
 
     public void GoStairs()
     {
@@ -29,6 +35,7 @@ public class BasementElevator : MonoBehaviour
         {
             Stairs.SetActive(false);
             Elevator.SetActive(false);
+            PlayAgain.SetActive(true);
         }
     }
 }

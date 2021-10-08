@@ -19,4 +19,9 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
+
+    public void Reset()
+    {
+        SceneManager.LoadScene("BasementText1");
+    }
 }
