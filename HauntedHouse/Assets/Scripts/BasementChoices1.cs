@@ -10,8 +10,18 @@ public class BasementChoices1 : MonoBehaviour
     public GameObject Weapon1;
     public GameObject Weapon2;
     public GameObject Weapon3;
+    public GameObject NextAfterWeapon1;
+    public GameObject NextAfterWeapon2;
+    public GameObject NextAfterWeapon3;
     public int Choice;
     
+    void Start()
+    {
+        NextAfterWeapon1.SetActive(false);
+        NextAfterWeapon2.SetActive(false);
+        NextAfterWeapon3.SetActive(false);
+    }
+
     public void GetWeapon1()
     {
         TextBox.GetComponent<Text>().text = "Damn you killed that foul beast fast. Maybe you will survive this after all!?";
@@ -32,11 +42,25 @@ public class BasementChoices1 : MonoBehaviour
 
     void Update()
     {
+        
         if(Choice >= 1)
         {
             Weapon1.SetActive(false);
             Weapon2.SetActive(false);
             Weapon3.SetActive(false);
         }
+        if(Choice == 1)
+        {
+            NextAfterWeapon1.SetActive(true);
+        }
+        else if(Choice == 2)
+        {
+            NextAfterWeapon2.SetActive(true);
+        }
+        else if(Choice == 3)
+        {
+            NextAfterWeapon3.SetActive(true);
+        }
+
     }
 }
