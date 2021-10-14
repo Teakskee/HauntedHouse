@@ -56,4 +56,14 @@ public class ScenesSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("BasementText1");
     }
+
+    public void DeathByStairs()
+    {
+        SceneManager.LoadScene("DeathByStairs");
+    }
+
+        public void DeathByElevator()
+    {
+        SceneManager.LoadScene("DeathByElevator");
+    }
 }
