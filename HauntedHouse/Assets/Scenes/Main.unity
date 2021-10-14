@@ -352,7 +352,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click me !
+  m_Text: Next
 --- !u!222 &887277801
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -426,7 +426,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1577532187}
         m_TargetAssemblyTypeName: ScenesSwitcher, Assembly-CSharp
-        m_MethodName: playGame
+        m_MethodName: Knife
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -655,6 +655,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dacfb29b55767ec4a855ead17330d542, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Start: 0
 --- !u!1 &1663739196
 GameObject:
   m_ObjectHideFlags: 0
@@ -818,7 +819,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ohh Good choice you are safe for now !
+  m_Text: 'Ooh no, it''s a struggle. You stab the beast. It bleeds.  It attacks you. '
 --- !u!222 &2055084305
 CanvasRenderer:
   m_ObjectHideFlags: 0

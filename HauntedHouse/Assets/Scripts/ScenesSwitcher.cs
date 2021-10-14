@@ -24,7 +24,7 @@ public class ScenesSwitcher : MonoBehaviour
 
     public void Reset()
     {
-        SceneManager.LoadScene("BasementText1");
+        SceneManager.LoadScene("Start");
     }
 
     public void RightDoor()
@@ -37,7 +37,7 @@ public class ScenesSwitcher : MonoBehaviour
         SceneManager.LoadScene("Run");
     }
 
-        public void Attack()
+    public void Attack()
     {
         SceneManager.LoadScene("Attack");
     }
@@ -50,5 +50,10 @@ public class ScenesSwitcher : MonoBehaviour
     public void Elevator()
     {
         SceneManager.LoadScene("BasementElevator");
+    }
+
+    public void StartToBasement()
+    {
+        SceneManager.LoadScene("BasementText1");
     }
 }
