@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/BasementOptional1.unity
     guid: 4006d5693110a544ba8f587879a7680e
   - enabled: 1
+    path: Assets/Scenes/BasementVraag2.unity
+    guid: af56c01f2e825614b9092255d1961375
+  - enabled: 1
+    path: Assets/Scenes/Run.unity
+    guid: 43933e9e1fab19e428f775594cb4084b
+  - enabled: 1
+    path: Assets/Scenes/Attack.unity
+    guid: d6b563f11be0b85458834cba259a459c
+  - enabled: 1
     path: Assets/Scenes/BasementElevator.unity
     guid: b45537577643ab34aab30b7d2ce2bedc
   m_configObjects: {}

@@ -36,7 +36,7 @@ public class BasementChoices1 : MonoBehaviour
 
     public void GetWeapon3()
     {
-        TextBox.GetComponent<Text>().text = "TBQ";
+        TextBox.GetComponent<Text>().text = "Ooh no, it's a struggle. You stab the beast. It bleeds.  It attacks you. ";
         Choice = 3;
     }
 
