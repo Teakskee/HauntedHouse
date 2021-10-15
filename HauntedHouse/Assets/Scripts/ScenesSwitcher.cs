@@ -62,8 +62,23 @@ public class ScenesSwitcher : MonoBehaviour
         SceneManager.LoadScene("DeathByStairs");
     }
 
-        public void DeathByElevator()
+    public void DeathByElevator()
     {
         SceneManager.LoadScene("DeathByElevator");
+    }
+
+    public void EnterFirstFloor()
+    {
+        SceneManager.LoadScene("EnterFirstFloor");
+    }
+
+    public void ChoiceFirstFloor()
+    {
+        SceneManager.LoadScene("1st-floor");
+    }
+
+    public void DeadFirstFloor()
+    {
+        SceneManager.LoadScene("1st floor - door - part 2");
     }
 }

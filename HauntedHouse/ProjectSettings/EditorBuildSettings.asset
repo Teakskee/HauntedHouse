@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BasementText1.unity
     guid: e8e731dbb88529a42b9a6c73210e4b00
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BasementOptional1.unity
     guid: 4006d5693110a544ba8f587879a7680e
   - enabled: 1
@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BasementElevator.unity
     guid: b45537577643ab34aab30b7d2ce2bedc
+  - enabled: 1
+    path: Assets/Scenes/EnterFirstFloor.unity
+    guid: 2b3beadd910f09b44ade000aa47fc3de
+  - enabled: 1
+    path: Assets/Scenes/1st-floor.unity
+    guid: c69e4ec75ff005840b0c0edbba5b27b6
+  - enabled: 1
+    path: Assets/Scenes/1st floor - door - part 2.unity
+    guid: dfc1cae286740b1439dbb77a263c8599
   m_configObjects: {}
