@@ -41,4 +41,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DeathByElevator.unity
     guid: 763ef9eecf94b084faff22ec00300282
+  - enabled: 1
+    path: Assets/Scenes/1stFloorDoor.unity
+    guid: 40e77e9ac4256da46b34b3ec180f5eed
+  - enabled: 1
+    path: Assets/Scenes/1stFloorVraag.unity
+    guid: 4a0809d01f0a6e84e86c3c9cb47d48c0
+  - enabled: 1
+    path: Assets/Scenes/1stFloorForward.unity
+    guid: b8209d09647a06249b20f023c4d8a4fe
+  - enabled: 1
+    path: Assets/Scenes/DeathByArrow.unity
+    guid: d7506d635ac36c4498efb5bf447c50a3
+  - enabled: 1
+    path: Assets/Scenes/1stFloorToBasement.unity
+    guid: d5a70947a8866254e8bb4f2f93e3bfa4
   m_configObjects: {}
