@@ -29,4 +29,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BasementElevator.unity
     guid: b45537577643ab34aab30b7d2ce2bedc
+  - enabled: 1
+    path: Assets/Scenes/Mop.unity
+    guid: 5d420e5ce480a424f8933578eb038cd2
+  - enabled: 1
+    path: Assets/Scenes/Chainsaw.unity
+    guid: fcc890ea0315d674a9c96ff4437669c6
+  - enabled: 1
+    path: Assets/Scenes/DeathByStairs.unity
+    guid: 011eb0bdd5287224eb308bfe6d21f3f1
+  - enabled: 1
+    path: Assets/Scenes/DeathByElevator.unity
+    guid: 763ef9eecf94b084faff22ec00300282
   m_configObjects: {}

@@ -47,6 +47,16 @@ public class ScenesSwitcher : MonoBehaviour
         SceneManager.LoadScene("BasementVraag2");
     }
 
+    public void Chainsaw()
+    {
+        SceneManager.LoadScene("Chainsaw");
+    }
+
+    public void Mop()
+    {
+        SceneManager.LoadScene("Mop");
+    }
+
     public void Elevator()
     {
         SceneManager.LoadScene("BasementElevator");
@@ -62,7 +72,7 @@ public class ScenesSwitcher : MonoBehaviour
         SceneManager.LoadScene("DeathByStairs");
     }
 
-        public void DeathByElevator()
+    public void DeathByElevator()
     {
         SceneManager.LoadScene("DeathByElevator");
     }
