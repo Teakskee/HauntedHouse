@@ -102,4 +102,19 @@ public class ScenesSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("StartVraag");
     }
+
+    public void SecondFloorDoor()
+    {
+        SceneManager.LoadScene("2ndFloorDoor");
+    }
+
+    public void SecondFloorVraag()
+    {
+        SceneManager.LoadScene("2ndFloorVraag");
+    }
+
+    public void SecondFloorLeftDoor()
+    {
+        SceneManager.LoadScene("2ndFloorLeftDoor");
+    }
 }

@@ -54,6 +54,15 @@ EditorBuildSettings:
     path: Assets/Scenes/DeathByArrow.unity
     guid: d7506d635ac36c4498efb5bf447c50a3
   - enabled: 1
-    path: Assets/Scenes/1stFloorToBasement.unity
-    guid: d5a70947a8866254e8bb4f2f93e3bfa4
+    path: Assets/Scenes/2ndFloorDoor.unity
+    guid: 235ac3b65a2a4b14cbb2033f4e33753a
+  - enabled: 1
+    path: Assets/Scenes/2ndFloorVraag.unity
+    guid: 4776fa77190d1bb419ae6d3b9e535f63
+  - enabled: 1
+    path: Assets/Scenes/2ndFloorLeftDoor.unity
+    guid: 53cc9fca11bb11b498bd5831f267f6ec
+  - enabled: 1
+    path: Assets/Scenes/RightDoor.unity
+    guid: 2e226e7d7fe1bf344b0b64ec88c80299
   m_configObjects: {}
