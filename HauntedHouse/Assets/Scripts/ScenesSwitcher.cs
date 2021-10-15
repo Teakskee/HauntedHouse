@@ -87,10 +87,6 @@ public class ScenesSwitcher : MonoBehaviour
         SceneManager.LoadScene("1stFloorDoor");
     }
 
-    public void FirstFloorToBasement()
-    {
-        SceneManager.LoadScene("1stFloorToBasement");
-    }
 
     public void FirstFloorForward()
     {
@@ -100,5 +96,10 @@ public class ScenesSwitcher : MonoBehaviour
     public void FirstFloorVraag()
     {
         SceneManager.LoadScene("1stFloorVraag");
+    }
+
+    public void StartVraag()
+    {
+        SceneManager.LoadScene("StartVraag");
     }
 }
