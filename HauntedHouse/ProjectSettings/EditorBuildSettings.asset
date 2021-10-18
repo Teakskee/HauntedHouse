@@ -38,4 +38,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/1st floor - door - part 2.unity
     guid: dfc1cae286740b1439dbb77a263c8599
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: be550cb8f62dff947bf8d07eb2a5650e, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 2f80974936a62b34bb9af038b12ce42f, type: 2}
