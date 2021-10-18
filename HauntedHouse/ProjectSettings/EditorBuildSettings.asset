@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RightDoor.unity
     guid: 2e226e7d7fe1bf344b0b64ec88c80299
+  - enabled: 1
+    path: Assets/Scenes/LeftDoor.unity
+    guid: f9428f17b2f68a640b6e3216c249c9e0
+  - enabled: 1
+    path: Assets/Scenes/Exmple3DLD.unity
+    guid: b26081652b7183a4a8868ec9e739997e
   m_configObjects: {}

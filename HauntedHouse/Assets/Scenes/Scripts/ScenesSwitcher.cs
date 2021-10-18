@@ -26,4 +26,9 @@ public class ScenesSwitcher : MonoBehaviour
     {
         SceneManager.LoadScene("RightDoor");
     }
+
+    public void LeftDoor()
+    {
+        SceneManager.LoadScene("LeftDoor");
+    }
 }
